@@ -20,9 +20,11 @@ def read_post(post_id: int):
             return post
     return {"error": "Post not found"}
 
+
 @app.get("/posts")
 def read_posts():
     return posts
+
 
 @app.post("/posts/{post_id}")
 def create_post(post_id: int, title: str):
