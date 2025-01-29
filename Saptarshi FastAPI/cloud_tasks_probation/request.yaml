@@ -1,0 +1,47 @@
+
+Please ensure you work within your own directory (e.g., `member1/` or `member2/`). Avoid modifying other members' directories.
+
+---
+
+## Submitting Your Work
+
+1. After completing your work in your directory, **push your changes** to your branch:
+
+    ```bash
+    git push origin feature/username
+    ```
+
+2. Once your changes are pushed, go to the GitHub repository and **create a Pull Request** (PR) from your feature branch to the `main` branch.
+
+---
+
+## Pull Request Workflow
+
+1. **Create a Pull Request** to merge your feature branch into `main`.
+    - Add a clear description of the changes you made.
+    - Link any relevant issues (e.g., `Fixes #123`).
+
+2. **Review**: The PR will be reviewed by an admin or team lead (you can review each other's PRs too). Be open to feedback and make necessary changes.
+
+3. **Merge**: Once the PR is approved:
+    - The admin or team lead will merge the PR into the `main` branch.
+    - After merging, the team member can delete their feature branch (optional).
+
+4. **Sync Your Local Repository**: Once your PR is merged, don't forget to pull the latest changes from `main`:
+
+    ```bash
+    git checkout main
+    git pull origin main
+    ```
+
+---
+
+## Best Practices
+
+- **Commit Messages**: Keep your commit messages clear and descriptive. Example: `Added contact form to member2 directory`.
+- **Small, Frequent Commits**: Break down large tasks into smaller pieces and commit regularly.
+- **Sync Regularly**: Always pull the latest changes from `main` before you start working, to avoid merge conflicts.
+
+---
+
+If you have any questions, feel free to ask! Happy coding!
